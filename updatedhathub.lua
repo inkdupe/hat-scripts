@@ -193,7 +193,8 @@ Hand.TextColor3 = Color3.fromRGB(0, 0, 0)
 Hand.TextSize = 30.000
 Hand.TextWrapped = true
 Hand.MouseButton1Down:connect(function()
-		for i = 1, 4 do
+		for i = 1, 3 do
+			task.wait(2)
 game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("im " .. game:GetService("Players").LocalPlayer.DisplayName .. ", and im the biggest skid in the world since i tried using the 'hand' script in hathub")
 		end end)
 		
