@@ -194,7 +194,7 @@ Hand.TextSize = 30.000
 Hand.TextWrapped = true
 Hand.MouseButton1Down:connect(function()
 for i = 1, 8 do
-game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("subscribe to vesersus!")
+game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("subscribe to vesersus! (i disabled hand because of the skids using it.)")
 			task.wait(math.random(10, 60))
 		end end)
 		
