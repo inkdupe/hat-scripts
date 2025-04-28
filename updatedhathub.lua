@@ -186,16 +186,16 @@ Hand.BackgroundColor3 = Color3.fromRGB(255, 163, 26)
 Hand.BorderColor3 = Color3.fromRGB(27, 42, 53)
 Hand.BorderSizePixel = 0
 Hand.Position = UDim2.new(0.0370370373, 0, 0.0113740861, 0)
-Hand.Size = UDim2.new(0, 175, 0, 32)
+Hand.Size = UDim2.new(0, 85, 0, 32)
 Hand.Font = Enum.Font.SourceSansItalic
-Hand.Text = "Hand (removed because skids)"
+Hand.Text = "Hand"
 Hand.TextColor3 = Color3.fromRGB(0, 0, 0)
 Hand.TextSize = 30.000
 Hand.TextWrapped = true
-Hand.TextScaled = true
 Hand.MouseButton1Down:connect(function()
+		for i = 1, 4 do
 game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("im " .. game:GetService("Players").LocalPlayer.DisplayName .. ", and im the biggest skid in the world since i tried using the 'hand' script in hathub")
-end)
+		end end)
 		
 SexDoll.Name = "SexDoll"
 SexDoll.Parent = Scripts
