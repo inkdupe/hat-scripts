@@ -38,8 +38,6 @@ local Hub = Instance.new("Frame")
 local TextLabel_10 = Instance.new("TextLabel")
 local TextLabel_11 = Instance.new("TextLabel")
 
-game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("gelatin is a skid | script made by vesersus")
-
 local function EquipHats(Message)
 	game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(Message)
 
